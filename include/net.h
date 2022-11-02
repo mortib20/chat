@@ -37,3 +37,4 @@ int Getsockopt(int sockfd, int level, int optname, void *optval, socklen_t *optl
 int Setsockopt(int sockfd, int level, int optname, const void *optval, socklen_t optlen);
 
 int Reuseaddr(int sockfd, int val);
+int Reuseport(int sockfd, int val);
